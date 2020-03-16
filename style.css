@@ -1,0 +1,33 @@
+body{
+    width: 100vw;
+   background-image: url(https://www.enpozuelo.es/galerias-noticias/galerias/269/medium/35mm.jpg);
+background-size: cover;  
+  flex-direction: row;
+}
+
+.buscarInput{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.peliculas{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    float: left;
+}
+
+.encabezado{
+    width: 100vw;
+    height: 4rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.pelicula{
+    justify-content: space-around;
+    padding: 3rem;
+}
